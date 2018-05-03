@@ -8,6 +8,7 @@ COPY ./ssl/localhost.sh /etc/ssl
 
 WORKDIR /etc/ssl
 
-RUN chmod u+x localhost.sh && ./localhost.sh
+RUN chmod u+x localhost.sh 
+RUN ./localhost.sh
 
 EXPOSE 443 80 
