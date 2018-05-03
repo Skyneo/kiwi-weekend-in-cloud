@@ -1,0 +1,7 @@
+kiwi-weekend-in-cloud:
+  container_name: kiwi-weekend-in-cloud
+  restart: unless-stopped
+  image: smonko/kiwi-weekend-in-cloud
+  ports:
+    - 80:80
+    - 443:443
